@@ -1,0 +1,102 @@
+[
+  {
+    "cluster": 0,
+    "size": 98,
+    "summary": "M .? MR!&M! M6,& +9# <!"
+  },
+  {
+    "cluster": 1,
+    "size": 399,
+    "summary": "There are others. They also found out such players represented the majority of the players in the hall of fame. Some hitters develop (Shane Mack, Brian Downing), some don't (Oddibe McDowell, Mickey Brantley)."
+  },
+  {
+    "cluster": 2,
+    "size": 722,
+    "summary": "In article writes: Fine. I don't. What society thinks should be irrelevant."
+  },
+  {
+    "cluster": 3,
+    "size": 258,
+    "summary": "For this cause a man shall leave his father and his mother, and shall cleave to his wife; and the shall become one flesh. Gen 2:24 (NASB) And He a man shall leave his father and his mother, and shall cleave to his wife; and the shall become one flesh. Let the husband fulfill his duty to his wife, and likewise also the wife to her husband."
+  },
+  {
+    "cluster": 4,
+    "size": 794,
+    "summary": "- Mark -- ------------------------------------------------------------------------------- Mark Wilson, Online Computer Systems. ------------------------------------------------------------------------------- -- ------------------------------------------------------------------------------- Mark Wilson, Online Computer Systems. e-mail (H."
+  },
+  {
+    "cluster": 5,
+    "size": 542,
+    "summary": "X11R5? Where can I get other X sources? Where can I get other X sources?"
+  },
+  {
+    "cluster": 6,
+    "size": 859,
+    "summary": "It only happens using the 1024x768x256 driver. A growing number of people see the combination *** 1.1 1993/04/28 08:33:13 --- xv.h 1993/04/28 08:19:31 *************** *** 284,292 **** --- 284,298 ---- /* signal macros */ + #if defined(sun) && defined(SYSV) + #define HOLD_SIG sighold(SIGALRM) + #define RELEASE_SIG sigrelse(0) + #define PAUSE_SIG sigpause(0) + #else #define HOLD_SIG sigblock(sigmask(SIGALRM)) #define RELEASE_SIG sigblock(0) #define PAUSE_SIG sigpause(0) + #endif /* default for most folks */ *************** *** 318,323 **** --- 324,333 ---- #define random rand #define srandom srand #endif + #if defined(sun) && defined(SYSV) + #define random() rand() + #define srandom(x) srand(x) + #endif *** 1.1 1993/04/28 06:09:50 --- xcmap.c 1993/04/28 07:09:03 *************** *** 9,15 **** --- 9,19 ---- /* include files */ #include <stdio.h> + #if defined(sun) && defined(SYSV) + #include <string.h> + #else #include <strings.h> + #endif #include <ctype.h> #include <X11/Xos.h> *** 1.1 1993/04/28 06:17:41 --- As the subject says - Can I use a 4052 for digital signals? Thanks."
+  },
+  {
+    "cluster": 7,
+    "size": 484,
+    "summary": "Higher octane fuel is not \"better\" than lower octane gas. ============================================================================== Erik Astrup AFM #422 DoD #683 1993 CBR 900RR * 1990 CBR 600 * 1990 Concours * 1990 Ninja 250 \"This one goes to eleven\" - Nigel Tufnel, lead guitar, Spinal Tap ============================================================================== **** SUBDIRS = tiff # endif # define PassCDebugFlags MakeSubdirs($(SUBDIRS)) - DependSubdirs($(DUBDIRS)) #endif all:: - @echo \"\" - @echo \" Did you remember to 'make depend' first?\" - @echo \"\" - - all:: @echo \" building xv ...\" @echo \"\" --- 225,236 ---- SUBDIRS = tiff # endif # define PassCDebugFlags + # define IHaveSubdirs MakeSubdirs($(SUBDIRS)) #endif all:: @echo \" building xv ...\" @echo \"\" *************** *** 259,267 **** SRCS = $(SRCS1) $(SRCS2) $(SRCS3) $(SRCS4) - DependTarget() AllTarget($(PROGRAMS)) NormalProgramTarget(xv,$(OBJS1),$(DEPLIBS),$(LOCAL_LIBRARIES),) NormalProgramTarget(bggen,$(OBJS2),$(DEPLIBS),$(LOCAL_LIBRARIES),) --- 257,269 ---- SRCS = $(SRCS1) $(SRCS2) $(SRCS3) $(SRCS4) + AllTarget($(PROGRAMS)) + DependTarget() + #ifdef IHaveSubdirs + DependSubdirs($(SUBDIRS)) + #endif NormalProgramTarget(xv,$(OBJS1),$(DEPLIBS),$(LOCAL_LIBRARIES),) NormalProgramTarget(bggen,$(OBJS2),$(DEPLIBS),$(LOCAL_LIBRARIES),) *** 1.1 1993/04/28 08:33:13 --- xv.h 1993/04/28 08:19:31 *************** *** 284,292 **** --- 284,298 ---- /* signal macros */ + #if defined(sun) && defined(SYSV) + #define In article (Ravi Narayan) writes: Hi, Ravi If you need a Harley, we have lots to spare here. All highway miles."
+  },
+  {
+    "cluster": 8,
+    "size": 517,
+    "summary": "The Branch Davidians opened fire first. The bullet entered her on a downward angle, went through the apex of her heart, down through the diaphragm, clipped her liver and destroyed her spleen. She was on her way home so happened to have her gun."
+  },
+  {
+    "cluster": 9,
+    "size": 587,
+    "summary": "only up, down, left, etc. From inside 10 feet or so, a knife is a match a holstered gun in experienced hands, even if the knife wielder has only moderate skill. Criminals practice their knife attacks in prison."
+  },
+  {
+    "cluster": 10,
+    "size": 610,
+    "summary": "Some of us think there's a big God in the sky, some don't. Some think they've been chosen by God, others disagree. Some think they are infallible, others think otherwise."
+  },
+  {
+    "cluster": 11,
+    "size": 569,
+    "summary": "Anyone out there know the answer? 128Mb) are much more expensive - around the GBP 1000 mark. We didn't have the time to sell the shirts."
+  },
+  {
+    "cluster": 12,
+    "size": 532,
+    "summary": "Why don't *you* point us to some studies? I don't know. I don't know."
+  },
+  {
+    "cluster": 13,
+    "size": 443,
+    "summary": "Right. And |> there are, in Israel, voices against negotiations. I donot know why there are israeli voices against negotiations."
+  },
+  {
+    "cluster": 14,
+    "size": 615,
+    "summary": "Palmer) writes: . Derek C. To: Date: Wed, 21 Apr 1993 15:46:20 GMT From: (Derek C."
+  },
+  {
+    "cluster": 15,
+    "size": 432,
+    "summary": "Second period 3, Detroit, Sheppard 1 (Probert, Coffey) pp, 5:04. 5, Detroit, Chiasson 1 (Coffey) pp,11:00. Vancouver, Adams 1 (Linden, Bure) pp, 1:23."
+  },
+  {
+    "cluster": 16,
+    "size": 650,
+    "summary": "[last modified 10/91] ---------------------------------------------------------------------- Subject: 16) What is \"low-bandwidth X\" */ #include <stdio.h> + #if defined(sun) && defined(SYSV) + #include <string.h> + #else #include <strings.h> + #endif #include <ctype.h> #include <X11/Xos.h> *** 1.1 1993/04/28 06:17:41 --- tiff/Imakefile 1993/04/28 08:53:34 *************** *** 49,59 **** --- 49,69 ---- tif_compress.o: Imakefile + #if HasGcc g3states.h: mkg3states.c t4.h -${RM} g3states.h + ${CC} -traditional -o mkg3states ${CFLAGS} mkg3states.c + ./mkg3states > g3states.h || rm g3states.h + #else + g3states.h: mkg3states.c t4.h + -${RM} g3states.h ${CC} -o mkg3states ${CFLAGS} mkg3states.c ./mkg3states > g3states.h || rm g3states.h + #endif depend:: g3states.h + clean:: + -${RM} mkg3states g3states.h + DependTarget() Please don't post uuencoded bitmaps here. Thanks.. Thanks (C."
+  },
+  {
+    "cluster": 17,
+    "size": 412,
+    "summary": "They were [SY] different people. [SY] Armenians killed Turks. Which Armenians?"
+  },
+  {
+    "cluster": 18,
+    "size": 354,
+    "summary": "They key depositories are IRRELEVANT. the escrow or to try all keys. Disclaimer number 3: I don't speak for Apple, just me."
+  },
+  {
+    "cluster": 19,
+    "size": 874,
+    "summary": "(Promised Messiah, p. (Promised Messiah, p. (Jesus the Christ, p."
+  }
+]

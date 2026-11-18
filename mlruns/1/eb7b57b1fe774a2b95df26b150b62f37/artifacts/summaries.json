@@ -1,0 +1,102 @@
+[
+  {
+    "cluster": 0,
+    "size": 271,
+    "summary": "It's got some error. It's got some error. Oh well."
+  },
+  {
+    "cluster": 1,
+    "size": 148,
+    "summary": "For this cause a man shall leave his father and his mother, and shall cleave to his wife; and the shall become one flesh. Let the husband fulfill his duty to his wife, and likewise also the wife to her husband. Let the husband fulfill his duty to his wife, and likewise also the wife to her husband."
+  },
+  {
+    "cluster": 2,
+    "size": 498,
+    "summary": "In article (eliot) writes: Eliot is right about 2.2 liter engine in the second (and last) generation MR2's. All highway miles. jim frost writes: Is there no JUSTICE?!"
+  },
+  {
+    "cluster": 3,
+    "size": 495,
+    "summary": "Palmer) writes: . I tooke them out and put some silicone sealant on them and put them back in. There is already one satellite in that position."
+  },
+  {
+    "cluster": 4,
+    "size": 243,
+    "summary": "Criminals practice their knife attacks in prison. The bullet entered her on a downward angle, went through the apex of her heart, down through the diaphragm, clipped her liver and destroyed her spleen. The bullet entered her on a downward angle, went through the apex of her heart, down through the diaphragm, clipped her liver and destroyed her spleen."
+  },
+  {
+    "cluster": 5,
+    "size": 626,
+    "summary": "Please... *** 1.1 1993/04/28 08:33:13 --- xv.h 1993/04/28 08:19:31 *************** *** 284,292 **** --- 284,298 ---- /* signal macros */ + #if defined(sun) && defined(SYSV) + #define HOLD_SIG sighold(SIGALRM) + #define RELEASE_SIG sigrelse(0) + #define PAUSE_SIG sigpause(0) + #else #define HOLD_SIG sigblock(sigmask(SIGALRM)) #define RELEASE_SIG sigblock(0) #define PAUSE_SIG sigpause(0) + #endif /* default for most folks */ *************** *** 318,323 **** --- 324,333 ---- #define random rand #define srandom srand #endif + #if defined(sun) && defined(SYSV) + #define random() rand() + #define srandom(x) srand(x) + #endif *** 1.1 1993/04/28 06:09:50 --- xcmap.c 1993/04/28 07:09:03 *************** *** 9,15 **** --- 9,19 ---- /* include files */ #include <stdio.h> + #if defined(sun) && defined(SYSV) + #include <string.h> + #else #include <strings.h> + #endif #include <ctype.h> #include <X11/Xos.h> *** 1.1 1993/04/28 06:17:41 --- tiff/Imakefile 1993/04/28 08:53:34 *************** *** 49,59 **** --- 49,69 ---- tif_compress.o: Imakefile + #if HasGcc g3states.h: mkg3states.c t4.h -${RM} g3states.h + ${CC} -traditional -o mkg3states ${CFLAGS} mkg3states.c + ./mkg3states > g3states.h || rm g3states.h + #else + g3states.h: mkg3states.c t4.h + -${RM} g3states.h ${CC} -o mkg3states ${CFLAGS} mkg3states.c ./mkg3states > g3states.h || rm g3states.h + #endif depend:: g3states.h + clean:: + -${RM} mkg3states g3states.h + DependTarget() As the subject says - Can I use a 4052 for digital signals? Thanks."
+  },
+  {
+    "cluster": 6,
+    "size": 287,
+    "summary": "They key depositories are IRRELEVANT. Disclaimer number 1: I don't work on sound here at Apple, I'm just pretty well informed. Disclaimer number 3: I don't speak for Apple, just me."
+  },
+  {
+    "cluster": 7,
+    "size": 220,
+    "summary": "[SY] Armenians killed Turks. [SY] People cannot trust eachother easily. [SY] People cannot trust eachother easily."
+  },
+  {
+    "cluster": 8,
+    "size": 277,
+    "summary": "In article writes: One thing that should be made clear is that neither the FBI nor the BATF is responsible for what happened yesterday. The Branch Davidians opened fire first. Tavares) writes: writes: :> Surrender your arms."
+  },
+  {
+    "cluster": 9,
+    "size": 301,
+    "summary": "Gregg (Anas Omran) writes: |>(Tim Clock) writes: |>>(Amos Shapira) writes: |>>>(Anas Omran) writes: |> |>>>Eh???? And |> there are, in Israel, voices against negotiations. I donot know why there are israeli voices against negotiations."
+  },
+  {
+    "cluster": 10,
+    "size": 301,
+    "summary": "In article writes: Fine. What society thinks should be irrelevant. Anybody see a way out?"
+  },
+  {
+    "cluster": 11,
+    "size": 425,
+    "summary": "Anyone out there know the answer? Thanks! Please help me."
+  },
+  {
+    "cluster": 12,
+    "size": 498,
+    "summary": "Thanks. Thanks.. Thanks (C."
+  },
+  {
+    "cluster": 13,
+    "size": 263,
+    "summary": "6, Vancouver, Ronning 1 (Courtnall) 18:31. Vancouver: 4 Power play: 6-1 Scorer Vancouver, Adams 1 (Linden, Bure) pp, 1:23. 6, Vancouver, Ronning 1 (Courtnall) 18:31."
+  },
+  {
+    "cluster": 14,
+    "size": 378,
+    "summary": "Some of us think there's a big God in the sky, some don't. Some think they've been chosen by God, others disagree. Some think they are infallible, others think otherwise."
+  },
+  {
+    "cluster": 15,
+    "size": 75,
+    "summary": "M .? M YUQ@ KH M\"1.: MSR'\\M:J_G (!L5(%$(^F<FV-YT\"A?%.AY%\"M>$UU>D5>N($T;<56\\#G,L\"0- M3L:K%NSYYZ4F9-?_CQ<-0 M^H1I(\"JTP)LPP#'GXQ-PQA?#:_YLP;7 M81!&(& ^3)PO,\"H>D,D&^H.PDMA M4P%_=3V ';\"^N\"J!T)*V]V7!G][:M ,[B!!J\\\" M#M5+ M/G3P?H1RHSE[\"F>O2V)J\"01&D=R F^N;)*93O2>P#TFVS^M)317D*C.Z+S/:<A3G% M7H=WSDI#GJZ3AJKXA!/ 1P]^0&X[!&?T(V=(GP-*VZ<OD%;-I1O$ N8T];4F ,N5R W Y.;CJ: MJH%?L<;2 F!8*E2U\"%2+F;\"N-Q&L2-JKY1'-QE$0C&EQ>(C/+ !#8-RDXH.8 MKG+T#P\"%UJRE;?I?2U;^\"/EJTS[_ FV268CC\" 2ZX4#I/\\,AT M%0;<^,]$[^\\9UKX1=<WYE\\U#S.:Z_P4YJ'-\\ &2V>^RZ[>^JV4Z)1E;;SF,; M:FJ=LJ%I! MR!&M!"
+  },
+  {
+    "cluster": 16,
+    "size": 350,
+    "summary": "Where can bugs in X? X11R5? Where can I get other X sources?"
+  },
+  {
+    "cluster": 17,
+    "size": 342,
+    "summary": "Why don't *you* point us to some studies? Glu also system in adults? I don't know."
+  },
+  {
+    "cluster": 18,
+    "size": 537,
+    "summary": "- Mark -- ------------------------------------------------------------------------------- Mark Wilson, Online Computer Systems. I've appended what I received below. e-mail (H."
+  },
+  {
+    "cluster": 19,
+    "size": 470,
+    "summary": "(Promised Messiah, p. (Jesus the Christ, p. (Jesus the Christ, p."
+  }
+]

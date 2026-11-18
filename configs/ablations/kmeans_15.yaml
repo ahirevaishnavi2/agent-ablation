@@ -1,0 +1,5 @@
+# Only the deltas from base.yaml; everything else inherits.
+agents:
+  clustering: { algo: kmeans, k: 15 }
+mlflow:
+  experiment: ablation_v1

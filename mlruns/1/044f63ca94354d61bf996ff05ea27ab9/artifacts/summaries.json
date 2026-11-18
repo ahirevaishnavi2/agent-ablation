@@ -1,0 +1,77 @@
+[
+  {
+    "cluster": 0,
+    "size": 467,
+    "summary": "In article writes: Fine. Marx said, the state will just wither away. What society thinks should be irrelevant."
+  },
+  {
+    "cluster": 1,
+    "size": 252,
+    "summary": "Suppose I analyze the output of this chip and I'm able to determine which bits are the encrypted packet which contains the serial number and session key. They key depositories are IRRELEVANT. Whoever owns the program that assigns keys to each serial number won't need access to the key depository."
+  },
+  {
+    "cluster": 2,
+    "size": 460,
+    "summary": "Palmer) writes: . Alexander Fleming (Proc. Alexander Fleming (Proc."
+  },
+  {
+    "cluster": 3,
+    "size": 630,
+    "summary": "In article (Jonathan King) writes: I agree. In article (Ron Bense) writes: Exactly. I've appended what I received below."
+  },
+  {
+    "cluster": 4,
+    "size": 465,
+    "summary": "Gregg (Anas Omran) writes: |>(Tim Clock) writes: |>>(Amos Shapira) writes: |>>>(Anas Omran) writes: |> |>>>Eh???? I donot know why there are israeli voices against negotiations. Hasan writes: You know ed,..."
+  },
+  {
+    "cluster": 5,
+    "size": 528,
+    "summary": "(Promised Messiah, p. (Jesus the Christ, p. (Jesus the Christ, p."
+  },
+  {
+    "cluster": 6,
+    "size": 424,
+    "summary": "Some of us think there's a big God in the sky, some don't. Some think they've been chosen by God, others disagree. Some think they are infallible, others think otherwise."
+  },
+  {
+    "cluster": 7,
+    "size": 368,
+    "summary": "Why don't *you* point us to some studies? Glu also system in adults? I don't know."
+  },
+  {
+    "cluster": 8,
+    "size": 684,
+    "summary": "*** 1.1 1993/04/28 08:33:13 --- xv.h 1993/04/28 08:19:31 *************** *** 284,292 **** --- 284,298 ---- /* signal macros */ + #if defined(sun) && defined(SYSV) + #define HOLD_SIG sighold(SIGALRM) + #define RELEASE_SIG sigrelse(0) + #define PAUSE_SIG sigpause(0) + #else #define HOLD_SIG sigblock(sigmask(SIGALRM)) #define RELEASE_SIG sigblock(0) #define PAUSE_SIG sigpause(0) + #endif /* default for most folks */ *************** *** 318,323 **** --- 324,333 ---- #define random rand #define srandom srand #endif + #if defined(sun) && defined(SYSV) + #define random() rand() + #define srandom(x) srand(x) + #endif *** 1.1 1993/04/28 06:09:50 --- xcmap.c 1993/04/28 07:09:03 *************** *** 9,15 **** --- 9,19 ---- /* include files */ #include <stdio.h> + #if defined(sun) && defined(SYSV) + #include <string.h> + #else #include <strings.h> + #endif #include <ctype.h> #include <X11/Xos.h> *** 1.1 1993/04/28 06:17:41 --- tiff/Imakefile 1993/04/28 08:53:34 *************** *** 49,59 **** --- 49,69 ---- tif_compress.o: Imakefile + #if HasGcc g3states.h: mkg3states.c t4.h -${RM} g3states.h + ${CC} -traditional -o mkg3states ${CFLAGS} mkg3states.c + ./mkg3states > g3states.h || rm g3states.h + #else + g3states.h: mkg3states.c t4.h + -${RM} g3states.h ${CC} -o mkg3states ${CFLAGS} mkg3states.c ./mkg3states > g3states.h || rm g3states.h + #endif depend:: g3states.h + clean:: + -${RM} mkg3states g3states.h + DependTarget() As the subject says - Can I use a 4052 for digital signals? Thanks. Thanks.."
+  },
+  {
+    "cluster": 9,
+    "size": 465,
+    "summary": "Reply for more details. Anyone out there know the answer? only up, down, left, etc."
+  },
+  {
+    "cluster": 10,
+    "size": 548,
+    "summary": "Second period 3, Detroit, Sheppard 1 (Probert, Coffey) pp, 5:04. 5, Detroit, Chiasson 1 (Coffey) pp,11:00. Vancouver: 4 Power play: 6-1 Scorer Vancouver, Adams 1"
+  },
+  {
+    "cluster": 11,
+    "size": 427,
+    "summary": "M .? %.>^J 1R4 ]*,< M>^L(QTLY]C?'3N78A1Q[E6/7V&#_)\\=^/,+QUX[V$T_[OB,[F*>=W['SVN, M_1V[O[>LO\"L5C)(CK);1=CNCS4)M ;MNGF B9OT_'4JSY_F(]8F=8\"QE Q!( M5]@ MVT2>$BVA1.BF>*$]-&K9N+OQ^4S'AWG$[G&Z$!D?^^:.CVG61&Q Y\\.Z-%T* MITCC7_B_[P'>XGPI&,M96ZBNV!$4V^A-8?&1# X&.\"_GJ>[ R=:B7(FQP5^W /SN?J (:A9[6W&\\#0;,K-O*AI\\+4!%038O8V-?2-=I UQ!& MD!N>TSCXZ8\\3P#.:1*HY!1> -+ M8X8!#EE(K,G1833>]C*OF&T9=(NR5+0#&IU*X=4JP\\7\"<G<%,<HM!Y1\">JYV M0.^1#E#%?&]Y<MF.SPEVRGX0L='^/$NPHK,,X*FN0'QZ4H_^^X\"BJ40R<AIS M3SP_4G)Q.\\37#,BRQ+(5^BQ#TE7)4B)=O2P7.'LFU1I9B%\" +!$8^ROC\"QB[ M+N,%&)L$=GH MR,H:*! ]: M\\+OE*\"&]7D^Y]&U&=BC[.]H7 M$N=)L6U>W %4O '5Y^PGDWMNVAO293 ME',_M7W$0.> ?[PDE>RO)3-\"X/8\" M M!X_B8B'O*\\%KUEE AK:R;LC/P5(.\"5:\"4Z[/*1 F);W9ZWX_WMXPS\\(W#\\<W MQ-N0]=ZF.^][&V0, MLAZ <0:B -G8]MKSI_NB9QL$;C_;%921$QC+\\3L9:P+7X*2FUR?K-K?\"8+W M^,;6,XW4I/B614UH?#NV'NNO#>C%Q>O3B])QT X\"S0*ISI_ Q!LX29 BY2=\"N^AB%% /N0BVW!_ ]4O_!Z\"\".)(IF3MFH\\(Q!#@ 41I54MRO2/!)YI__W(DXW -YGFRXZYA0]:RANIWZ\\M M9]QY+8T[/ G\"/_K-4.Q_^T[ MK3\\X?H,D#]\"AJ3VX6?T#SJE[UYC/4VO=L]TC$^:S&G9?5Z%>#8\"7:0 LG*>8 MV:FN]\\ EKN78-0G\" <([=I<\"CH]W[.8>_ #G'3N29Z=W[+\"^W=ZQ:[OV>R\\% MZ MXSQF2O?;'G!(T>L7< MIJG4W]S9WYR E^!9P.'0R%6(P7B:^+]@ V/I'CY [HGT&:01$-(!%\"9?GP+& M\"$\\>[D4H8$]-QCA*S4P%N%-!K\\#]?]5LA%H [V))V260_4P2#6^4[MO;=^() M=^AWH.\\ [!3A>T$2AQ55$T8\\$<KGVX]<9(%D1Y/V:.9'#[_?1Q!4NG%AO.Q' MR3DS41CXD)*WZ5LE>KS^HYM/3)B\\BL 9YCH08PEL3/\".+?"
+  },
+  {
+    "cluster": 12,
+    "size": 371,
+    "summary": "Where can bugs in X? X11R5? Where can I get other X sources?"
+  },
+  {
+    "cluster": 13,
+    "size": 522,
+    "summary": "jim frost writes: Is there no JUSTICE?! Reimer) writes: Pitargue) writes: Such as? Only on public roads."
+  },
+  {
+    "cluster": 14,
+    "size": 394,
+    "summary": "The Branch Davidians opened fire first. I've seen people close that distance and strike in 1 second. I've seen people close that distance and strike in 1 second."
+  }
+]

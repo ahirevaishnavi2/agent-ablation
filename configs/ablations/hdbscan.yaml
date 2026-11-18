@@ -1,0 +1,7 @@
+# HDBSCAN Density based clustering
+agents:
+  clustering:
+    algo: hdbscan
+    min_cluster_size: 50
+mlflow:
+  experiment: ablation_v1

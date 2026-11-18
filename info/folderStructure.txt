@@ -1,0 +1,19 @@
+agent-ablation/
+├── data/
+│   ├── raw/              # Kaggle download goes here (never edited)
+│   └── processed/        # sample_v1.parquet, cleaned data
+├── configs/
+│   ├── base.yaml         # default config
+│   └── ablations/        # one yaml per experiment
+├── src/
+│   ├── agents/           # one file per agent
+│   ├── core/             # shared state, config loader, logging
+│   ├── pipeline.py       # wires agents together
+│   └── run_ablation.py   # sweep runner
+├── notebooks/            # EDA only
+├── reports/              # generated reports and charts
+├── mlruns/               # MLflow writes here (auto)
+├── tests/
+├── requirements.txt
+├── .gitignore
+└── README.md

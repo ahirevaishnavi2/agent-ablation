@@ -1,0 +1,9 @@
+agents:
+  chunking:
+    size: 128
+    overlap: 0.2
+  clustering:
+    algo: kmeans
+    k: 20
+mlflow:
+  experiment: ablation_v1

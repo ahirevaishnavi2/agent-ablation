@@ -1,0 +1,15 @@
+seed: 42
+data:
+  path: data/processed/sample_v1.parquet
+  text_col: text
+  label_col: label
+  sample_size: 5000 # <-- Set to 5000 so this run takes ~15 mins instead of 2 hours
+agents:
+  preprocess: { enabled: true, level: full }
+  chunking: { enabled: true, strategy: fixed, size: 256, overlap: 0.2 }
+  embedding: { model: all-MiniLM-L6-v2 }
+  clustering: { algo: kmeans, k: 15 }
+  summarizer: { type: extractive }
+  critic: { enabled: true }
+mlflow:
+  experiment: ablation_v1

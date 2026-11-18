@@ -1,0 +1,8 @@
+agents:
+  embedding:
+    model: all-mpnet-base-v2
+  clustering:
+    algo: kmeans
+    k: 20
+mlflow:
+  experiment: ablation_v1
